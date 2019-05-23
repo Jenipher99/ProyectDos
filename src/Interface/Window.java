@@ -69,9 +69,9 @@ public class Window extends Application implements Runnable{
     private void initComponents(Stage primaryStage) {
         try {
             this.pane = new Pane();
-            this.scene = new Scene(this.pane, 1000, 900);
-            this.canvas = new Canvas(1000, 700);
-            this.image = new Image(new FileInputStream("src/Assets/fondo.jpg"));
+            this.scene = new Scene(this.pane, 600, 450);
+            this.canvas = new Canvas(600, 450);
+            this.image = new Image(new FileInputStream("src/Assets/FONDO.png"));
             
             this.pane.getChildren().add(this.canvas);
             
